@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "CursedTimer";
+  src: url("./Fonts/CursedTimerUlil-Aznm.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: 
+     linear-gradient(180deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.40) 50%, rgba(0, 0, 0, 0.80) 100%),
+    url("https://www.pixelstalk.net/wp-content/uploads/2016/04/NBA-Wallpapers-HD-1920x1080.jpg");
+    background-size: cover;
+     background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575;
+    height: 385;
+    angle: 0 deg;
+    opacity: 1;
+    /* background: #1B244A; */
+    padding: 80px;
+}
+
+.board {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3 {
+    font-family: 'Verdana', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+.score-box {
+    width: 155;
+    height: 120;
+    top: 125px;
+    left: 337px;
+    border-radius: 8px;
+    angle: 0 deg;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080001
+}
+
+#score-left, #score-right {
+  font-family: "CursedTimer", sans-serif;
+  font-size: 90px;
+  line-height: 128px;
+  color: #F94F6D;
+  margin: 20px 0 0 0;
+}
+
+#increase-btn {
+    width: 45;
+    height: 45;
+    top: 271px;
+    left: 82px;
+    border-radius: 5px;
+    angle: 0 deg;
+    opacity: 1;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+     margin: 0px 4px;
+
+    font-family: "CursedTimer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27.81px;
+  text-align: center;
+  color: #9AABD8;
+
+}
+
+#increase-btn:hover {
+    background: #9AABD8;
+    color: #1B244A;
+    cursor: pointer;
+}

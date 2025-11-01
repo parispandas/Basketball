@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <script src="index.js"></script>
+        <div class="container">
+            <div class="board">
+                <h3>HOME</h3>
+
+                <div class="score-box">
+                <div id="score-left">0</div>
+                </div>
+
+                <div class="buttons">
+                    <button id="increase-btn" onclick="addOneLeft()">+1</button>
+                    <button id="increase-btn" onclick="addTwoLeft()">+2</button>
+                    <button id="increase-btn" onclick="addThreeLeft()">+3</button>
+                </div>
+            </div>
+
+            <div class="board">
+                <h3>GUEST</h3>
+
+                 <div class="score-box">
+                <div id="score-right">0</div>
+                </div>
+
+                <div class="buttons">
+                    <button id="increase-btn" onclick="addOneRight()">+1</button>
+                    <button id="increase-btn" onclick="addTwoRight()">+2</button>
+                    <button id="increase-btn" onclick="addThreeRight()">+3</button>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
