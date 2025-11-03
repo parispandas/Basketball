@@ -21,8 +21,8 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    width: 575;
-    height: 385;
+    width: 575px;
+    height: 385px;
     angle: 0 deg;
     opacity: 1;
     /* background: #1B244A; */
@@ -47,8 +47,8 @@ h3 {
 }
 
 .score-box {
-    width: 155;
-    height: 120;
+    width: 155px;
+    height: 120px;
     top: 125px;
     left: 337px;
     border-radius: 8px;
@@ -69,8 +69,8 @@ h3 {
 }
 
 #increase-btn {
-    width: 45;
-    height: 45;
+    width: 45px;
+    height: 45px;
     top: 271px;
     left: 82px;
     border-radius: 5px;
